@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Datum transfomation Google</string>
+    <string name="title_activity_maps">Datum Transformation</string>
+    <string name="normal_map" />
+    <string name="hybrid_map" />
+    <string name="satellite_map" />
+    <string name="terrain_map" />
+    <string name="dropped_pin">Dropped Pin </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="datum">Choose a Datum</string>
+    <string name="epoch">Choose Epoch</string>
+    <string name="technique">Choose Transformation Technique</string>
+    <string name="transformation_technique">Transformation Technique</string>
+    <string name="epoch_text">Epoch</string>
+    <string name="datum_text">Datum</string>
+    <string name="set_option">Set options</string>
+    <string name="transform_coordinate">Transform Coordinate</string>
+    <string-array name="datum_list">
+        <item>ITRF_2005</item>
+        <item>ITRF_2000</item>
+        <item>ITRF_1997</item>
+        <item>ITRF_1996</item>
+        <item>ITRF_1994</item>
+        <item>ITRF_1993</item>
+        <item>ITRF_1992</item>
+        <item>ITRF_1991</item>
+        <item>ITRF_1990</item>
+        <item>ITRF_1989</item>
+        <item>ETRF_2014</item>
+        <item>ETRF_2000</item>
+    </string-array>
+    <string-array name="method_list">
+        <item>linear expression Helmert</item>
+        <item>Strict formula Helmert standard</item>
+        <item>Abridged Molodenski</item>
+        <item>Molodenski-Bakedas</item>
+    </string-array>
+</resources>
